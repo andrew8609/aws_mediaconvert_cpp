@@ -1,0 +1,11 @@
+region  us-east-1
+folderPath720  E:\Drop\720
+folderOutputPath720  E:\MP2-720
+folderPath1080  E:\Drop\1080
+folderOutputPath1080  E:\MP2-1080
+bucket720Input  htc720
+bucket1080Input  htc1080
+bucket720Output  htc720output
+bucket1080Output  htc1080output
+sqsQueueUrl720  https://sqs.us-east-1.amazonaws.com/627296207923/ConversionCompleted720
+sqsQueueUrl1080  https://sqs.us-east-1.amazonaws.com/627296207923/ConversionCompleted1080
