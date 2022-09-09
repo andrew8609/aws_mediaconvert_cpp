@@ -76,7 +76,6 @@ void uploadFile(Aws::String bucketName, Aws::String folderPath, const Aws::Strin
 
 void getFinishedMessage(Aws::String queue_url, Aws::String bucketName, Aws::String folderOutputPath, const Aws::String& region) {
     
-    //Aws::String queue_url = queue_url;
     char returnMessageHandler[1000];
     char fileName[255];
     if (!receiveMessage(queue_url, returnMessageHandler, fileName)) {
