@@ -75,8 +75,7 @@ bool uploadToS3(Aws::String bucketName, Aws::String filePath, Aws::String fileNa
 
     if (!PutObject(bucket_name, object_name, fileName, region)) {
         return false;
-    }
-        
+    }     
     return true;
 }
 
